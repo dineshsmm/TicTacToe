@@ -2,7 +2,7 @@ version: 2
 updates:
   # Maintain App gradle dependencies
   - package-ecosystem: "gradle"
-    directory: "/dependencies.gradle"
+    directory: "/"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 20
